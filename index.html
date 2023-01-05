@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/main.css" />
+    <title>Frontend Mentor | Grid pricing component</title>
+  </head>
+  <body>
+    <main class="container">
+      <input
+        type="checkbox"
+        name="toggle__checkbox"
+        id="toggle__checkbox"
+        class="toggle__checkbox"
+      />
+      <header class="header">
+        <h1>Our Pricing</h1>
+        <div class="toggle">
+          <p>Annually</p>
+          <div class="toggle__switch">
+            <label for="toggle__checkbox" class="toggle__btn"></label>
+          </div>
+          <p>Monthly</p>
+        </div>
+      </header>
+      <ul class="pricing">
+        <li class="item item--white">
+          <p class="item__type">Basic</p>
+          <p class="item__price item__price--monthly">
+            <span class="small">&dollar;</span>19.99
+          </p>
+          <p class="item__price item__price--annually">
+            <span class="small">&dollar;</span>199.99
+          </p>
+          <ul class="item__features">
+            <li class="item__feature-item">500 GB Storage</li>
+            <li class="item__feature-item">2 Users Allowed</li>
+            <li class="item__feature-item">Send up to 3 GB</li>
+          </ul>
+          <a href="#" class="item__btn item__btn--blue">Learn More</a>
+        </li>
+        <li class="item item--blue">
+          <p class="item__type">Professional</p>
+          <p class="item__price item__price--monthly">
+            <span class="small">&dollar;</span>24.99
+          </p>
+          <p class="item__price item__price--annually">
+            <span class="small">&dollar;</span>249.99
+          </p>
+          <ul class="item__features">
+            <li class="item__feature-item">1 TB Storage</li>
+            <li class="item__feature-item">5 Users Allowed</li>
+            <li class="item__feature-item">Send up to 10 GB</li>
+          </ul>
+          <a href="#" class="item__btn item__btn--white">Learn More</a>
+        </li>
+        <li class="item item--white">
+          <p class="item__type">Master</p>
+          <p class="item__price item__price--monthly">
+            <span class="small">&dollar;</span>39.99
+          </p>
+          <p class="item__price item__price--annually">
+            <span class="small">&dollar;</span>399.99
+          </p>
+          <ul class="item__features">
+            <li class="item__feature-item">2 TB Storage</li>
+            <li class="item__feature-item">10 Users Allowed</li>
+            <li class="item__feature-item">Send up to 20 GB</li>
+          </ul>
+          <a href="#" class="item__btn item__btn--blue">Learn More</a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
