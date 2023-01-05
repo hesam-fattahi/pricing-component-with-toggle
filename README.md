@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution: [Repository URL](https://your-solution-url.com)
-- Live Site: [Github page URL](https://your-live-site-url.com)
+- Solution: [Repository URL](https://github.com/hesam-fattahi/pricing-component-with-toggle)
+- Preview: [Live site URL](https://hesam-fattahi.github.io/pricing-component-with-toggle/)
 
 ### Built with
 
