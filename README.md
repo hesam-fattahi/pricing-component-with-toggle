@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution: [Repository URL](https://github.com/hesam-fattahi/pricing-component-with-toggle)
-- Preview: [Live site URL](https://hesam-fattahi.github.io/pricing-component-with-toggle/)
+- [Frontend mentor solution URL](https://www.frontendmentor.io/solutions/pricing-component-with-toggle-6-R4z_4hV6)
+- [Live site URL](https://hesam-fattahi.github.io/pricing-component-with-toggle/)
 
 ### Built with
 
